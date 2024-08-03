@@ -1,0 +1,31 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.todoForm {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  height: 30%;
+  width: 100%;
+  background-color: cornflowerblue;
+}
+
+.todoInput {
+  border-radius: 20%;
+}
+
+.deadlineInput {
+  border-radius: 20%
+}
